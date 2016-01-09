@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+
+<!-- Andrey Knyazev -->
+<html>
+    <head>
+        <title>Depreciation Calculator</title>
+    <div id="head"><h1>Depreciation Calculator</h1></div>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Style/style.css">
+
+    </head>
+    <body>
+         <form action="Depreciate" method="GET">
+                 <div id="data">
+                     <h2>Please enter data:</h2>
+
+           <p>
+            Cost  <input type ="text" name = "cost" /> 
+            
+            Scrap <input type ="text" name = "scrap" /> 
+           Assets Life  <input type ="text" name = "years" /> 
+           </p>
+           
+            <input type="hidden" name="tracking" value="main">
+                 </div>
+             <div id="radioHead">
+           <h2>Please Choose method:</h2><br />
+             
+           <input type="radio" name="method" value="SL" checked> Straight-Line
+           <input type="radio" name="method" value="SYD"> Sum-Of-The-Year's-Digits
+           <input type="radio" name="method" value="UP"> Units of Production
+           <input type="radio" name="method" value="DDB"> Double Declining Balance
+                   
+            <p><input type = "submit" name = "submit" value = "Compute Depreciation" /> 
+                
+               <input type = "reset" value = "Reset" /></p>   
+            </div>
+        </form>               
+       
+    </body>
+</html>
+
+
+

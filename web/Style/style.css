@@ -1,0 +1,42 @@
+
+#head{
+    background-color: lightblue;
+    color:white;
+    text-align:center;
+    padding: 35px;
+}
+
+#data{
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+    
+    background-color: #6666ff;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: blueviolet;
+}
+
+#radioHead{
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+}
+
+#units{
+    background-color: #6666ff;
+    padding: 5px;
+    text-align: center;
+}
+
+p{
+    font-size: 150%;
+    font-family: serif;
+}
+
+
